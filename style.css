@@ -185,6 +185,8 @@ color: #7a75c5;
 }
 footer{
     background: #7a75c5;
+    width: 100%;
+   
 
 }
 
@@ -193,13 +195,219 @@ height: 36px;
 width: 243px;
 left: 598px;
 top: 3117px;
-border-radius: nullpx;
+padding-left: 600px;
+padding-top: 50px;
 
 }
 .lastdiv{
-padding-left: 589px;
+width: 50%;margin: auto;
+text-align: center;
 padding-top: 50px;
 padding-bottom: 50px;
 }
 
 /* end  */
+
+/* media  */
+
+@media only screen and (max-width:688px) {
+
+    body{
+        width:100%;
+    }
+        .section1{
+    flex-direction: column;
+    }
+        
+        .firstheaderh3{
+     position: relative;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    transform: translate(100px,-50px)
+    
+        }
+    .section1div2img1{
+       
+        width: 257px;
+        height: 257px;
+        left: 51px;
+        top: 81px;
+       padding-left: 54px;
+       transform: translate(20px);
+        }    
+        .firsth1{
+          
+    width: 404px;
+    height: 78px;
+    left: -22px;
+    top: 352px;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 42px;
+    text-align: center;
+    transform: translate(-40px,30px);
+        }
+        p{
+           
+    left: 5%;
+    right: 5.83%;
+    top: 7.32%;
+    bottom: 91.61%;
+    
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+        }
+        .section1 .section1div1 p{
+            transform: translate(-120px,20px);
+        }
+        .firsta{
+            height: 44px;
+            width: 194px;
+            left: 83px;
+            top: 530px;
+            border-radius: 41px;
+            padding: 10px, 24px, 10px, 24px;
+            
+        }
+        .secondheaderh2{
+          transform: translate(-500px,-50px);}
+          .section2{
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+        }
+        .secondh1{
+            padding-left: 100px;
+         }
+        .section3{
+           flex-direction: column;
+        }
+        .lastheaderh3{
+         transform: translate(-300px);
+         
+            }
+            .lastdiv{
+                transform: translate(130px);
+            }
+            .lastlinks{
+                display: flex;
+            }
+            h6{
+                transform: translate(-90px);
+            }
+            .seconda{display: block;
+             transform:translate(-1050px)}
+           
+           
+    }
+    @media only screen and (min-width:689px) and (max-width:992px) {
+
+        body{
+            width:100%;
+        }
+            .section1{
+        flex-direction: column;
+        }
+            
+            .firstheaderh3{
+         position: relative;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        transform: translate(100px,-50px)
+        
+            }
+        .section1div2img1{
+           
+            width: 257px;
+            height: 257px;
+            left: 51px;
+            top: 81px;
+           padding-left: 54px;
+           transform: translate(20px);
+            }    
+            .firsth1{
+              
+        width: 404px;
+        height: 78px;
+        left: -22px;
+        top: 352px;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 42px;
+        text-align: center;
+        transform: translate(-40px,30px);
+            }
+            p{
+               
+        left: 5%;
+        right: 5.83%;
+        top: 7.32%;
+        bottom: 91.61%;
+        
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+        text-align: center;
+        font-feature-settings: 'liga' off;
+        
+            }
+            .section1 .section1div1 p{
+                transform: translate(-275px,10px);}
+            .firsta{
+                height: 44px;
+                width: 194px;
+                left: 83px;
+                top: 530px;
+                border-radius: 41px;
+                padding: 10px, 24px, 10px, 24px;
+                
+            }
+            .secondheaderh2{
+              transform: translate(-350px,100px);}
+              .section2{
+                display: grid;
+                grid-template-columns: repeat(2,0.1fr);
+              
+            }
+            .section3{
+               flex-direction: column;
+            }
+            .lastheaderh3{
+             transform: translate(-300px);
+             
+                }
+                .secondh1{
+                   padding-left: 100px;
+                }
+                .section3 .section3div2 p{
+                    padding-right: 400px;
+                }
+                .lastdiv{
+                    transform: translate(-120px);
+                }
+                .lastlinks{
+                    display: flex;
+                    transform: translate(175px);
+                }
+                .seconda{display: block;
+                    transform:translate(-1050px)}
+        }
+    
